@@ -108,17 +108,3 @@ body {
 .text-block__p {
    line-height: 1.75;
 }
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.footer__copyright {
-  /* margin-bottom: 200px; */
-  position: absolute;
-  top: 0;
-  left: 50%;
-}
