@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paralax</title>
+  <script src="./libs/gsap/gsap.min.js" defer></script>
+  <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="hero-section">
+        <!-- <img data-lag=".5" data-speed=".6" class="hero" src="./img/hero.png" alt=""> -->
+        <img data-speed=".6" class="hero" src="./img/hero.png" alt="hero">
+        <div class="container">
+          <div data-speed=".75" class="main-header">
+            <h1 class="main-title">creative space</h1>
+          </div>
+        </div>
+      </header>
+      
+      <div class="portfolio">
+        <div class="container">
+          <div class="gallery">
+            <div class="gallery__left">
+              <img src="./img/work/1.jpg" alt="hero1" class="gallery__item">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">Return to Space is an American documentary film made for Netflix</h2>
+                <p class="text-block__p"> Movie directed by Jimmy Chin and Elizabeth Chai Vasarhelyi. 
+                  Its story follows Elon Musk's and SpaceX engineers' two-decade mission to send NASA 
+                  astronauts back to the International Space Station and revolutionize space travel.</p>
+              </div>
+              <img src="./img/work/2.jpg" alt="hero2" class="gallery__item">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">Frontend inovations in Paris</h2>
+                <p class="text-block__p">France has emerged as a hub for frontend innovations, driving the evolution of web development and user experience. 
+                  With a thriving tech scene and a vibrant community of developers, 
+                  the country has been at the forefront of pushing boundaries and introducing novel concepts in frontend design.</p>
+              </div>
+              <img src="./img/work/6.jpg" alt="hero2" class="gallery__item">
+              
+            </div>
+            <div data-speed="1.1" class="gallery__right">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">Meteora, Linkin Park’s ground-breaking second album</h2>
+                <p class="text-block__p">Was released in March 2003 and included the global hit singles 
+                  “Somewhere I Belong”, “Faint”, “Numb”, “Breaking the Habit” and “From the Inside.” 
+                  It has sold over 8 million copies in the US and has been certified multi-platinum, platinum, or gold in 15 countries.</p>
+              </div>
+              <img src="./img/work/4.jpg" alt="" class="gallery__item">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">Legendary Hit Man John Wick</h2>
+                <p class="text-block__p">With the price on his head ever increasing, takes his fight against the High Table global as he seeks out the most powerful players in the underworld, from New York to Paris to Japan to Berlin.</p>
+              </div>
+              <img src="./img/work/5.jpg" alt="" class="gallery__item">
+              <img src="./img/work/3.jpg" alt="" class="gallery__item">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">Made by Dimitri Jmukhadze</h2>
+                <p class="text-block__p">Copyright © 2023</p>
+              </div>
+            </div>
+          </div>
+          <!-- <footer class="footer">
+            <h2 class="footer__copyright">Made By Dimitri Jmukhadze © 2023</h2>
+          </footer> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
